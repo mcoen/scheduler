@@ -4,7 +4,7 @@ import time
 from patient import Patient
 from clinician import Clinician
 
-start = round(time.time() * 1000)
+start = time.time() * 1000
 
 patient1 = Patient('Bob', 'Smith')
 print(patient1.name)
@@ -15,5 +15,5 @@ print(clinician1.all)
 clinician2 = Clinician('Mandy', 'Jones', 'Charge Nurse', '12340')
 print(clinician2.all)
 
-end = round(time.time() * 1000)
+end = time.time() * 1000
 print(end - start)
