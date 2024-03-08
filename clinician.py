@@ -7,8 +7,8 @@ class Clinician:
 
     @property
     def full_name(self):
-        return f'{self.first_name} {self.last_name} {self.role} {self.employee_id}'
+        return f'{self.first_name} {self.last_name}'
 
     @property
-    def name(self):
+    def all(self):
         return f'{self.last_name}, {self.first_name}, {self.role}, {self.employee_id}'
