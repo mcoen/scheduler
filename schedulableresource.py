@@ -1,4 +1,4 @@
-class Resource:
+class SchedulableResource:
     def __init__(self, name):
         self.name = name
 
